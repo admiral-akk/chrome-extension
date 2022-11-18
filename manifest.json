@@ -14,6 +14,8 @@
         },
         {
             "matches": [
+                "https://bloomberg.com/*",
+                "https://www.bloomberg.com/*",
                 "https://nytimes.com/*",
                 "https://www.nytimes.com/*"
             ],
