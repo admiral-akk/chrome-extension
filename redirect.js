@@ -1,0 +1,1 @@
+window.location.replace("https://archive.ph/" + window.location.href.split("?")[0]);

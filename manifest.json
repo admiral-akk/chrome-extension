@@ -14,6 +14,15 @@
         },
         {
             "matches": [
+                "https://nytimes.com/*",
+                "https://www.nytimes.com/*"
+            ],
+            "js": [
+                "redirect.js"
+            ]
+        },
+        {
+            "matches": [
                 "https://archive.ph/*"
             ],
             "js": [
