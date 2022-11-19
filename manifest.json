@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
-    "name": "Chrome Plugin",
-    "description": "Testing Plugin",
+    "name": "Kuba's Extension",
+    "description": "Streamlining the Internet for Kuba",
     "version": "1.0",
     "content_scripts": [
         {
@@ -16,6 +16,8 @@
             "matches": [
                 "https://bloomberg.com/*",
                 "https://www.bloomberg.com/*",
+                "https://www.washingtonpost.com/*",
+                "https://washingtonpost.com/*",
                 "https://nytimes.com/*",
                 "https://www.nytimes.com/*"
             ],

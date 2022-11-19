@@ -18,10 +18,10 @@ window.addEventListener("load", (event) => {
         return;
     }
     newest = links.item(0);
-    for (link in links.entries()) {
+    for (link of links.values()) {
         curr = getOffset(newest);
         next = getOffset(link);
-        if (curr.left < next.left || curr.left == next.left && next.top < curr.top) {
+        if (next.top > curr.top || next.top == curr.top && curr.left < next.left) {
             newest = link;
         }
     }
